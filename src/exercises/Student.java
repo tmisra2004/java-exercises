@@ -15,10 +15,31 @@ public class Student {
         this.gpa = gpa;
     }
 
-    public Student(String name, int studentId) {
-        this(name, studentId, 0, 0);
+    public String getName() {
+        return name;
     }
 
-    /* getters and setters omitted */
+    public void setName(String name) {
+        this.name = name;
+    }
 
+    public int getStudentId() {
+        return studentId;
+    }
+
+    public int getNumberOfCredits() {
+        return numberOfCredits;
+    }
+
+    public void setNumberOfCredits(int numberOfCredits) {
+        this.numberOfCredits = numberOfCredits;
+    }
+
+    public double getGpa() {
+        return gpa;
+    }
+
+    public void setGpa(double gpa) {
+        this.gpa = gpa;
+    }
 }
